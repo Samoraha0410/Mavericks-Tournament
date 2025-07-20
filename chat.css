@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('pc4.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Section Headings */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #89c9ff;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ffcc00;
+  margin: 50px 0 20px;
+}
+
+/* Layout for rows */
+.row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  
+}
+
+/* Box styling for groups, fixtures, standings */
+.box {
+  background-color: rgba(20, 20, 20, 0.85);
+  border: 2px solid #ff4d00;
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 280px;
+  flex: 1 1 300px;
+}
+
+/* Headings in boxes */
+.box h2, .box h3 {
+  color: #ff4d00;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* List inside fixtures */
+.box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.box li {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+th, td {
+  border: 1px solid #fff;
+  padding: 6px;
+  text-align: center;
+}
+
+th {
+  background-color: #222;
+  color: #ff4d00;
+}
+.box p {
+    text-align: center;
+    font-weight: bold;
+}
+.box h3{
+  color: #00ffcc;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #ffcc00;
+}
+section li {
+  text-align: left;
+  font-size: medium;
+}
